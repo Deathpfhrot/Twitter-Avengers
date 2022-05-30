@@ -1,0 +1,72 @@
+.countPostInteraktionsDiv{
+  display: flex;
+  gap: 15px;
+  margin-left: 3vw;
+}
+.countPostInteraktionsDiv p{
+  border: 1px solid #1da1f2;
+  border-radius: 9px;
+  padding: 3px 5px;
+}
+/* .retweetPic{
+  width: 15vw;
+  height: 15vw;
+  margin-left:8vw;
+} */
+.retweetPic img{
+width:60px;
+  height:60px;
+  object-fit: fill;
+  border-radius: 50%;
+}
+.backFlex{
+  display: flex;
+  align-items: baseline;
+  gap: 5vw;
+}
+.backArrow{
+  margin-left: 5vw;
+}
+.noUser{
+  margin: 0 auto;
+  width: 80vw;
+  padding-top: 20px;
+}
+.rtdFrom{
+  text-align: center;
+  border-bottom: 2px dashed #1da1f2;
+  margin-bottom: 0;
+}
+.flexUserInfo{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+align-items: center;
+  justify-items: center;
+  border-bottom: 1px solid #1da1f2;
+}
+
+.unfollowBtn p, .followBtn p {
+  border: 1px solid #1da1f2;
+  background-color: #1da1f2;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+
+}
+.followYou{
+font-size: 0.7em;
+text-align: center;
+}
+.errorMsg{
+  text-align: center;
+  vertical-align: bottom;
+}
+.noTweet{
+  display: flex;
+}
+.backButton img{
+  padding: 10px 0 0 10px;
+}

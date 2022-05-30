@@ -1,0 +1,32 @@
+.modal-deleteTweet-bg {
+    z-index: 12;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-del-container {
+    width: 350px;
+    height: 250px;
+    background-color: aliceblue;
+    padding: 2%;
+    border-radius: .5em;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-footer h3 {
+    cursor: pointer;
+}
+
+.modal-footer h3:last-child{
+    color: red;
+}

@@ -1,0 +1,24 @@
+.birdie {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  border-bottom: 2px #1da1f2 solid;
+  border-bottom-left-radius:30px;
+  border-bottom-right-radius:30px;
+}
+.birdie .bird {
+  grid-column: 2/3;
+  justify-self: center;
+}
+.bird img {
+  width: 70%;
+  text-align: center;
+  padding-top: 5%;
+}
+.bird img:hover {
+  transform: rotate(60deg);
+}
+.backBtn {
+  grid-column: 1/2;
+  justify-self: center;
+align-self: center;
+}

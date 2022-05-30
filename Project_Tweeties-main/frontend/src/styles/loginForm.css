@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  border: 1px #e1e8ed solid;
+  border-radius: 10px;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  color: grey;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.blueTerms {
+  text-decoration: none;
+  color: #1da1f2;
+}
+input {
+  margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 1px solid #1da1f2;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background: #1da1f2;
+  padding: 9px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #1da1f2;
+}
+
+button[type="submit"]:hover {
+  background: white;
+  color: #1da1f2;
+  border: 1px solid #1da1f2;
+}
+
+.signUp {
+  text-align: center;
+  padding-top: 2%;
+}
+button[type="button"] {
+  width: 55%;
+  background: #1da1f2;
+  padding: 9px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #1da1f2;
+}
+
+.introText {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20% 0 15% 0;
+}
+
+.pwLost {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.registerMiddle {
+  text-align: center;
+  padding: 40px;
+}
+
+.register {
+  width: 80%;
+  background: #1da1f2;
+  padding: 9px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #1da1f2;
+}
+.register:hover{
+  width: 80%;
+  background: #fff;
+  padding: 9px;
+  color: #1da1f2;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #1da1f2;
+}
+/* Login terms */
+.terms {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+/* Register p Tag */
+.smallTxt {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3vw;
+}
+
+.verfifyTxt{
+  text-align: center;
+}
+.verfifyTxt img{
+  margin-top: 10px;
+}
+.backToLogin{
+  text-align: center;
+}
+.backToLogin button{
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px;
+}
